@@ -26,7 +26,7 @@ void* substring (char* instr)
     int iter, substring_array_index=0, row_memory_size_counter=1, column_memory_index = 0;
     
 
-    for(iter=0; iter<strlen(instr); iter++)
+    for(iter=0; iter<=strlen(instr); iter++)
     {
         if(instr[iter] == '_')
         {
@@ -47,7 +47,7 @@ void* substring (char* instr)
 
     
 
-    for(iter=0; iter<strlen(instr); iter++, column_memory_index++)
+    for(iter=0; iter<=strlen(instr); iter++, column_memory_index++)
     {
         if(instr[iter] == '_')
         {
