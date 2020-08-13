@@ -12,7 +12,7 @@ The broken string should be {"...", "...", ..., "..."}
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
 
-To have this file:
+## To have this file:
 
 * step 1: git clone [https://github.com/stepin105519/Substring_c.git] 
 * step 2:  make
