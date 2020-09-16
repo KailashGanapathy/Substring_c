@@ -10,6 +10,9 @@
 * The Array of String pointer need to allocate with memory to store substrings
 * Row memory allocation is dynamically allocated with (number delimeter "_" + 1) of size
 */
+/**
+* This is a check
+*/
 
 void* row_memory_allocation (int row_memory_size);
 
